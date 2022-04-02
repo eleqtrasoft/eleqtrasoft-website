@@ -1,0 +1,194 @@
+html {
+  scroll-behavior: smooth;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+main {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none !important;
+}
+s .avatar-img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 30% 70% 46% 54% / 51% 52% 48% 49%;
+}
+.modal-img {
+  margin-left: 25% !important;
+}
+
+.brand-logo {
+  filter: grayscale(50%);
+}
+
+.brand-img {
+  /* width: 4rem; */
+  height: 2.5em;
+}
+#main-titlep {
+  font-size: 1.25rem;
+}
+#main-titleh {
+  font-size: 3rem;
+}
+
+.social-icon {
+  color: white;
+  margin: 0.25rem;
+}
+.btn-icon {
+  font-size: 0.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.carousel-cell {
+  width: 100%; /* full width */
+  height: 160px; /* height of carousel */
+  margin-right: 10px;
+}
+
+.icon > img {
+  height: 6rem;
+  width: auto;
+}
+.brand-img {
+  filter: grayscale(100);
+}
+.footer_logo {
+  filter: invert(1);
+  height: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.link-disabled {
+  pointer-events: none;
+  cursor: default;
+}
+#ser-bot {
+  position: relative;
+  transform: translateY(-10rem);
+  z-index: -100;
+}
+@media (max-width: 500px) {
+  #ser-bot {
+    transform: translateY(-3rem);
+  }
+}
+
+@media (max-width: 500px) {
+  .header-logo {
+    display: none;
+  }
+  #main-titlep {
+    font-size: 1rem;
+  }
+  #main-titleh {
+    font-size: 1.75rem;
+  }
+}
+
+.header-btn {
+  transition: box-shadow 0.3s;
+}
+.header-btn:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.15);
+}
+
+.shdw {
+  box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+}
+
+.grow {
+  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.075);
+}
+.lift {
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+.lift:hover {
+  transform: translateY(-5px);
+}
+
+#testimonials {
+  margin-top: -5rem !important;
+}
+
+.card {
+  border-radius: 1rem;
+}
+.round {
+  border-radius: 2rem;
+}
+.badge-secondary-soft {
+  background-color: rgba(80, 102, 144, 0.1);
+  color: #506690;
+}
+.badge-pill {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 10rem;
+}
+.h6,
+h6 {
+  font-size: 0.75rem;
+}
+.course-main {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+}
+
+.jumbotron {
+  background-color: #e2eefb !important;
+}
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-6 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-7 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (min-width: 576px) {
+  #overview-tag {
+    margin-top: -7rem !important;
+  }
+}
+
+#overview-tag > .card {
+  border-radius: 0.5rem !important;
+}
+
+.accordion .card-header:after {
+  font-family: "FontAwesome";
+  content: "\f077";
+  float: left;
+  margin-right: 1rem;
+}
+.accordion .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f078";
+}
