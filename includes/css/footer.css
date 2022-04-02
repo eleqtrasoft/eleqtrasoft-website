@@ -1,0 +1,31 @@
+
+  #footer{
+    background-color: #21325b !important;
+  }
+.footer_logo {
+    filter: invert(1);
+    height: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-icon{
+      color: white;
+      margin: .25rem;
+  }
+  .link-disabled{ 
+    pointer-events: none; 
+    cursor: default; 
+  }
+  
+  @media (max-width: 576px){
+    .header-logo{
+        display: none;
+      }
+    }
+    
+    @media (min-width: 768px) and (max-width:992px) { 
+      #social-media{
+        display: none;
+      }
+    }

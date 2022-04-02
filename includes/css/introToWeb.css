@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+main {
+  overflow-x: hidden;
+  /* height: 2000px; */
+}
+@media (min-width: 576px) {
+  #overview-tag {
+    margin-top: -7rem !important;
+  }
+
+}
+
+#overview-tag > .card {
+  border-radius: 0.5rem !important;
+}
+
+.accordion .card-header:after {
+  font-family: "FontAwesome";
+  content: "\f077";
+  float: left;
+  margin-right: 1rem;
+}
+.accordion .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f078";
+}
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-6 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-7 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.round {
+  border-radius: 2rem;
+}
+.shdw {
+  box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+}
+
+.header-btn {
+  transition: box-shadow 0.3s;
+}
+.header-btn:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.15);
+}
+.badge-secondary-soft {
+  background-color: rgba(80, 102, 144, 0.1);
+  color: #506690;
+}
+.badge-pill {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 10rem;
+}
+
+.last-accordion {
+  border-bottom: 0px solid rgba(0, 0, 0) !important;
+}
+
+.bg-img {
+  background-image: url("");
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+}
+
+
+@media (max-width : 576px){
+  .bottom-border{
+    border-radius: 0 0 2rem 2rem;
+  }
+}
